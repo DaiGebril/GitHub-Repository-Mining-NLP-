@@ -60,7 +60,7 @@ This approach provides a balance between highly popular repositories and a broad
 
 ---
 
-# 🧹 Data Preprocessing
+## 🧹 Data Preprocessing
 
 The preprocessing stage includes:
 
@@ -76,7 +76,7 @@ The processed dataset is then used by the different mining and NLP components.
 
 ---
 
-# 🌐 Graph Mining
+## 🌐 Graph Mining
 
 A graph representation of the repositories was constructed based on shared topics.
 
@@ -89,7 +89,7 @@ This graph structure allows the project to apply graph-ranking algorithms and id
 
 ---
 
-# 📈 PageRank
+## 📈 PageRank
 
 PageRank is used to measure the relative importance of repositories within the constructed graph.
 
@@ -111,7 +111,7 @@ The highest PageRank score in the dashboard is approximately:
 
 ---
 
-# 🔗 HITS Algorithm
+## 🔗 HITS Algorithm
 
 The project also applies the **HITS (Hyperlink-Induced Topic Search)** algorithm.
 
@@ -129,7 +129,7 @@ The resulting hub and authority scores are stored separately and visualized thro
 
 ---
 
-# 🛒 Association Rule Mining
+## 🛒 Association Rule Mining
 
 Association Rule Mining is used to discover relationships between repository topics.
 
@@ -147,14 +147,17 @@ with measurements such as:
 Support
 Confidence
 Lift
+```
 
 The dashboard provides an interactive view of the discovered association rules.
 
 The current dashboard contains:
 
-72 association rules
+**72 association rules**
 
-🤖 BERT & NLP Analysis
+---
+
+## 🤖 BERT & NLP Analysis
 
 Natural Language Processing is used to analyze repository text and discover semantic relationships.
 
@@ -162,14 +165,17 @@ The project uses BERT-based embeddings to represent repository information in a 
 
 These embeddings allow the system to compare repositories based on their semantic meaning rather than relying only on exact keyword matches.
 
-🔍 Repository Similarity
+---
+
+## 🔍 Repository Similarity
 
 The project includes a semantic similarity search based on the generated embeddings.
 
-Similarity is calculated using Cosine Similarity.
+Similarity is calculated using **Cosine Similarity**.
 
 Conceptually:
 
+```text
 Repository
      ↓
 BERT Embedding
@@ -179,10 +185,13 @@ Vector Representation
 Cosine Similarity
      ↓
 Most Similar Repositories
+```
 
 This makes it possible to find repositories that are semantically similar even when their names or keywords are different.
 
-🧠 Repository Classification
+---
+
+## 🧠 Repository Classification
 
 The project also includes a BERT-based repository classification component.
 
@@ -190,48 +199,55 @@ The classification results are used to categorize repositories into different te
 
 Example categories include:
 
-Cybersecurity or Security Tools
-Machine Learning or Artificial Intelligence
-Data Science or Data Analytics
-Desktop Application Development
-Mobile Application Development
-Other technical categories
+- Cybersecurity or Security Tools
+- Machine Learning or Artificial Intelligence
+- Data Science or Data Analytics
+- Desktop Application Development
+- Mobile Application Development
+- Other technical categories
 
 The classification results are visualized in the dashboard.
 
-📊 Interactive Dashboard
+---
 
-The project includes an interactive dashboard built with Streamlit.
+## 📊 Interactive Dashboard
+
+The project includes an interactive dashboard built with **Streamlit**.
 
 The dashboard provides several sections:
 
-🏠 Dashboard
+### 🏠 Dashboard
 
 Provides an overview of the analyzed repositories, including:
 
-Number of repositories
-Number of association rules
-Top PageRank score
-Average stars
-Top repositories
-Repository category distribution
-📈 PageRank
+- Number of repositories
+- Number of association rules
+- Top PageRank score
+- Average stars
+- Top repositories
+- Repository category distribution
+
+### 📈 PageRank
 
 Displays repository ranking based on PageRank scores.
 
-🔗 Association Rules
+### 🔗 Association Rules
 
 Explores the relationships discovered between repository topics.
 
-🤖 BERT
+### 🤖 BERT
 
 Provides repository classification and semantic similarity functionality.
 
-🌐 HITS
+### 🌐 HITS
 
 Displays hub and authority analysis.
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```text
 GitHub-Repository-Mining/
 │
 ├── app/
@@ -259,23 +275,33 @@ GitHub-Repository-Mining/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-🛠️ Technologies Used
-Technology	Purpose
-Python	Main programming language
-Pandas	Data manipulation
-NumPy	Numerical computation
-Scikit-learn	Machine learning and similarity
-Matplotlib	Data visualization
-Plotly	Interactive visualization
-Streamlit	Interactive dashboard
-BERT	NLP and semantic embeddings
-NetworkX	Graph analysis
-FP-Growth	Association rule mining
-Jupyter Notebook	Data analysis and experimentation
-⚙️ Main Components
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Main programming language |
+| Pandas | Data manipulation |
+| NumPy | Numerical computation |
+| Scikit-learn | Machine learning and similarity |
+| Matplotlib | Data visualization |
+| Plotly | Interactive visualization |
+| Streamlit | Interactive dashboard |
+| BERT | NLP and semantic embeddings |
+| NetworkX | Graph analysis |
+| FP-Growth | Association rule mining |
+| Jupyter Notebook | Data analysis and experimentation |
+
+---
+
+## ⚙️ Main Components
 
 The project consists of several major components:
 
+```text
 GitHub Dataset
       │
       ▼
@@ -300,50 +326,79 @@ Results
       │
       ▼
 Streamlit Dashboard
-▶️ How to Run the Project
-1. Clone the Repository
-git clone https://github.com/DaiGebril/GitHub-Repository-Mining.git
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
 cd GitHub-Repository-Mining
-2. Create a Virtual Environment
+```
+
+### 2. Create a Virtual Environment
+
+```bash
 python -m venv .venv
+```
 
 Activate it on Windows:
 
+```bash
 .venv\Scripts\activate
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run the Dashboard
+```
+
+### 4. Run the Dashboard
+
+```bash
 streamlit run app/app.py
+```
 
 The dashboard will open in your browser.
 
-📌 Key Results
+---
+
+## 📌 Key Results
 
 The current analysis contains:
 
-Metric	Value
-Analyzed Repositories	3,000
-Association Rules	72
-Top PageRank Score	0.0039
-Average Stars	14,287
+| Metric | Value |
+|---|---:|
+| Analyzed Repositories | 3,000 |
+| Association Rules | 72 |
+| Top PageRank Score | 0.0039 |
+| Average Stars | 14,287 |
 
 The project combines graph analysis, data mining, and NLP to provide multiple perspectives for understanding GitHub repositories.
 
-🚀 Future Improvements
+---
+
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
-Increasing the dataset size.
-Adding more repository metadata.
-Improving classification performance.
-Adding more NLP models.
-Building advanced repository recommendation features.
-Adding temporal analysis to track repository popularity over time.
-Deploying the Streamlit dashboard online.
-Adding more interactive visualizations.
-👩‍💻 Author
+- Increasing the dataset size.
+- Adding more repository metadata.
+- Improving classification performance.
+- Adding more NLP models.
+- Building advanced repository recommendation features.
+- Adding temporal analysis to track repository popularity over time.
+- Deploying the Streamlit dashboard online.
+- Adding more interactive visualizations.
 
-Dai Gebril
+---
 
-GitHub:
-https://github.com/DaiGebril
+## 👩‍💻 Author
+
+**Dai Gebril**
+
+GitHub: **DaiGebril**
