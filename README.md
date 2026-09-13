@@ -396,10 +396,10 @@ Possible future improvements include:
 - Adding more interactive visualizations.
 
 ---
-
 ## 👩‍💻 Author
 
-**Dai Gebril**
+### Dai Gebril
 
-Data Science Student passionate about **Data Engineering, Data Mining, and Backend Development**.
+> Data Science Student passionate about **Data Engineering, Data Mining, and Backend Development.**
+
 ⭐ If you find this project interesting, feel free to explore the repository!
