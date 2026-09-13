@@ -1,0 +1,101 @@
+Name,Category,Confidence,Stars,Language
+functions-framework-php,Data Science or Data Analytics,0.25084587931632996,199,Other
+data-engineering-zoomcamp,Machine Learning or Artificial Intelligence,0.4110689163208008,14840,Python
+nats-top,Cybersecurity or Security Tools,0.6262961030006409,308,Go
+Rocket.Chat,Cybersecurity or Security Tools,0.3522021174430847,37061,TypeScript
+kata-containers,Cybersecurity or Security Tools,0.3236093521118164,3807,Rust
+jasmine,Desktop Application Development,0.2347654402256012,15620,JavaScript
+requests-html,Cybersecurity or Security Tools,0.20543965697288513,13331,Python
+docker-github-pages,Cybersecurity or Security Tools,0.1424686461687088,180,Other
+AI-Expert-Roadmap,Machine Learning or Artificial Intelligence,0.8727813363075256,26771,JavaScript
+FsHttp,Cybersecurity or Security Tools,0.2123848795890808,354,Other
+runtime,Cybersecurity or Security Tools,0.2377672791481018,1051,Go
+papers-we-love,Machine Learning or Artificial Intelligence,0.49432289600372314,76507,Other
+JARVIS,Cybersecurity or Security Tools,0.23604373633861542,21836,Python
+building-blocks,Machine Learning or Artificial Intelligence,0.23544803261756897,357,Rust
+open-simulation-interface,Machine Learning or Artificial Intelligence,0.3552331328392029,253,Python
+ncnn,Machine Learning or Artificial Intelligence,0.47751572728157043,17945,C++
+realm-swift,Data Science or Data Analytics,0.4507225453853607,15984,Other
+logseq,Cybersecurity or Security Tools,0.22538845241069794,25009,Other
+slambench,Data Science or Data Analytics,0.5859111547470093,295,C++
+ClassTypeReference-for-Unity,Machine Learning or Artificial Intelligence,0.16534622013568878,263,C#
+rust,Machine Learning or Artificial Intelligence,0.2815554738044739,85479,Rust
+awesome-cheatsheets,Frontend Web Development,0.9028403162956238,34609,JavaScript
+SwiftLint,Data Science or Data Analytics,0.27521565556526184,17765,Other
+learnrust,Cybersecurity or Security Tools,0.156728133559227,548,Rust
+pybind11,Machine Learning or Artificial Intelligence,0.24370695650577545,13541,C++
+mintable,Data Science or Data Analytics,0.4615670144557953,1349,TypeScript
+cloudmacs,Cybersecurity or Security Tools,0.2614263892173767,456,Other
+vision,Machine Learning or Artificial Intelligence,0.7217043042182922,14543,Python
+lottie-android,Mobile Application Development,0.33446815609931946,34238,Java
+hydra,Cybersecurity or Security Tools,0.6741673946380615,14427,Go
+nvidia-docker,Data Science or Data Analytics,0.21502943336963654,16735,Other
+DeepLearningCourseCodes,Machine Learning or Artificial Intelligence,0.1994505375623703,257,Python
+PlotNeuralNet,Cybersecurity or Security Tools,0.1705033928155899,20061,Other
+psdle,Desktop Application Development,0.2561134994029999,176,JavaScript
+iina,Cybersecurity or Security Tools,0.16909600794315338,34494,Other
+monica,Cybersecurity or Security Tools,0.22737279534339905,19607,Other
+streaker,Desktop Application Development,0.24305109679698944,176,TypeScript
+DragGAN,Machine Learning or Artificial Intelligence,0.43853330612182617,33082,Python
+metabase,Data Science or Data Analytics,0.9176002144813538,34109,Other
+validator,Data Science or Data Analytics,0.33802080154418945,14015,Go
+Microsoft-Activation-Scripts,Data Science or Data Analytics,0.15332336723804474,42632,Other
+frp,Cybersecurity or Security Tools,0.2866424024105072,72050,Go
+streamlit,Data Science or Data Analytics,0.3551276624202728,27222,Python
+mpvue,Data Science or Data Analytics,0.1805657148361206,20425,JavaScript
+place,Machine Learning or Artificial Intelligence,0.20834533870220184,303,JavaScript
+ethereum-php,Cybersecurity or Security Tools,0.19728487730026245,470,Other
+Fake-images-please,Cybersecurity or Security Tools,0.1766013205051422,815,Python
+Auto-GPT,Machine Learning or Artificial Intelligence,0.669205904006958,149034,JavaScript
+music-encoding,Desktop Application Development,0.28765633702278137,186,Other
+Amplitude-JavaScript,Machine Learning or Artificial Intelligence,0.1582127958536148,303,JavaScript
+hexo-theme-next,Machine Learning or Artificial Intelligence,0.1873650699853897,15859,JavaScript
+PowerShell_IPv4NetworkScanner,Cybersecurity or Security Tools,0.547706663608551,319,Other
+gpt_academic,Data Science or Data Analytics,0.19164949655532837,41694,Python
+sparrow,Cybersecurity or Security Tools,0.43934568762779236,874,Java
+rustdesk,Desktop Application Development,0.3301369547843933,47199,Rust
+cutie,Machine Learning or Artificial Intelligence,0.16377702355384827,309,Python
+NodeBB,Mobile Application Development,0.4145820140838623,13563,JavaScript
+graphql-js,Machine Learning or Artificial Intelligence,0.2416752129793167,19695,TypeScript
+frodo,Mobile Application Development,0.8482742309570312,1482,Java
+luigi,Desktop Application Development,0.20429874956607819,16801,Python
+labelImg,Data Science or Data Analytics,0.20222251117229462,20624,Python
+sweetalert,Machine Learning or Artificial Intelligence,0.2199738770723343,22292,TypeScript
+HikariCP,Cybersecurity or Security Tools,0.17997290194034576,18673,Java
+esbuild,Machine Learning or Artificial Intelligence,0.17874309420585632,36076,Go
+Web-Dev-For-Beginners,Machine Learning or Artificial Intelligence,0.2140345424413681,76757,JavaScript
+qiankun,Frontend Web Development,0.3962607681751251,14817,TypeScript
+skaffold,Desktop Application Development,0.17939621210098267,14216,Go
+selectize.js,Desktop Application Development,0.17305761575698853,12971,Other
+OpenTOFLidar,Data Science or Data Analytics,0.24098044633865356,695,C
+redash,Data Science or Data Analytics,0.8480657935142517,23857,Python
+ReID-MGN,Data Science or Data Analytics,0.2349984347820282,236,Python
+docker-phoenix-example,Mobile Application Development,0.19139038026332855,185,Other
+monotome,Backend Web Development or API,0.5328587293624878,182,JavaScript
+limbo,Cybersecurity or Security Tools,0.19267012178897858,398,Python
+grafana,Data Science or Data Analytics,0.8581475615501404,57147,TypeScript
+shields,Data Science or Data Analytics,0.16452381014823914,20990,JavaScript
+scikit-learn-intelex,Machine Learning or Artificial Intelligence,0.44921404123306274,1042,Python
+gpt-neox,Cybersecurity or Security Tools,0.18363144993782043,6020,Python
+TMRB,Cybersecurity or Security Tools,0.16961874067783356,167,JavaScript
+universal-data-tool,Desktop Application Development,0.860280454158783,1827,JavaScript
+DormitoryManager,Data Science or Data Analytics,0.1905452013015747,952,JavaScript
+lock,Cybersecurity or Security Tools,0.22203055024147034,463,Other
+nx,Machine Learning or Artificial Intelligence,0.1892973929643631,19333,TypeScript
+keel,Cybersecurity or Security Tools,0.2493387758731842,2265,Go
+HashMap,Data Science or Data Analytics,0.1545848846435547,169,C++
+guava,Data Science or Data Analytics,0.17525839805603027,48325,Java
+raster-functions,Data Science or Data Analytics,0.4367370903491974,184,Python
+stable-diffusion-webui-colab,Machine Learning or Artificial Intelligence,0.20390012860298157,13772,Python
+ST-P3,Data Science or Data Analytics,0.21149593591690063,211,Python
+awesome-game-security,Game Development,0.6081737875938416,1962,Python
+acme.sh,Cybersecurity or Security Tools,0.21358074247837067,33144,Other
+CocoaPods,Machine Learning or Artificial Intelligence,0.2036941945552826,14269,Other
+vimix-gtk-themes,Game Development,0.16660401225090027,1573,Other
+jsdoc,Desktop Application Development,0.1804773211479187,14224,JavaScript
+woocommerce-android,Mobile Application Development,0.29399415850639343,242,Other
+portainer,Cybersecurity or Security Tools,0.22202453017234802,26606,Go
+multi-subject-render,Data Science or Data Analytics,0.17200273275375366,337,Python
+controller_configuration,Data Science or Data Analytics,0.19038105010986328,222,Other
+awesome-ios,Mobile Application Development,0.2046784609556198,43974,Other
+README-ecoleta,Machine Learning or Artificial Intelligence,0.19116351008415222,211,TypeScript
