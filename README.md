@@ -401,4 +401,5 @@ Possible future improvements include:
 
 **Dai Gebril**
 
-GitHub: **DaiGebril**
+Data Science Student passionate about **Data Engineering, Data Mining, and Backend Development**.
+⭐ If you find this project interesting, feel free to explore the repository!
